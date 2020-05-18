@@ -3,7 +3,7 @@ published: true
 name: Andros
 logo_image: /assets/img/islands/andros/andros-logo.jpg
 hero_image: /assets/img/islands/andros/hero.jpg
-categories: [General Information, Accommodations, Island Activites, Restaurants]
+industries: [Accommodations, Island Activites, Restaurants]
 magazine_image: /assets/img/islands/andros/magazine.jpg
 magazine_url:
 ---

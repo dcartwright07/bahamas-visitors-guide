@@ -3,7 +3,7 @@ published: true
 name: Cat Island
 logo_image: /assets/img/islands/cat-island/cat-island-logo.jpg
 hero_image: /assets/img/islands/cat-island/hero.jpg
-categories: [General Information, Accommodations, Island Activites, Marinas, Restaurants]
+industries: [Accommodations, Island Activites, Marinas, Restaurants]
 magazine_image: /assets/img/islands/cat-island/magazine.jpg
 magazine_url: https://issuu.com/janebraynen/docs/catislandvisitorsguide2015
 ---

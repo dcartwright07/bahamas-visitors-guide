@@ -1,0 +1,31 @@
+<div class="section notopmargin noborder nobottommargin" >
+	<div class="container clearfix">
+		<div class="heading-block center nobottommargin">
+			<h2>Plan Your Trip</h2>
+			<!-- <span>Sub Heading</span> -->
+		</div>
+	</div>
+</div>
+
+<div id="portfolio" class="portfolio-3 portfolio-nomargin portfolio-full clearfix">
+	{% for industry in site.data.industries %}
+		<article class="portfolio-item pf-media pf-icons">
+			<div class="portfolio-image">
+				<a href="{{ industry.link }}" hreflang="en">
+					<img src="{{ industry.image }}" alt="{{ industry.image_alt }}">
+				</a>
+				<div class="portfolio-overlay">
+					<a href="{{ industry.link }}" class="center-icon" hreflang="en"><i class="fa fa-link"></i></a>
+				</div>
+			</div>
+			<div class="portfolio-desc">
+				<h3>
+					<a href="{{ industry.link }}" hreflang="en">
+						{{ industry.name }}
+					</a>
+				</h3>
+				<span>{{ industry.name }}</span>
+			</div>
+		</article>
+	{% endfor %}
+</div>

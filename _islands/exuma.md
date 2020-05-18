@@ -3,7 +3,7 @@ published: true
 name: Exuma
 logo_image: /assets/img/islands/exuma/exuma-logo.jpg
 hero_image: /assets/img/islands/exuma/hero.jpg
-categories: [General Information, Accommodations, Island Activites, Restaurants, Marinas, Real Estate, Transportation]
+industries: [Accommodations, Island Activites, Restaurants, Marinas, Real Estate, Transportation]
 magazine_image: /assets/img/islands/exuma/magazine.jpg
 magazine_url: https://issuu.com/janebraynen/docs/exuma.2016
 ---

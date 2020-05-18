@@ -3,7 +3,7 @@ published: true
 name: Acklins & Crooked Island
 logo_image: /assets/img/islands/acklins-crooked-island/acklins-crooked-logo.jpg
 hero_image: /assets/img/islands/acklins-crooked-island/hero.jpg
-info_pages: [General Information, Accommodations, Island Activites]
+industries: [Accommodations, Island Activites]
 magazine_image: /assets/img/islands/acklins-crooked-island/magazine.jpg
 magazine_url: https://issuu.com/janebraynen/docs/acklins_crooked.2015
 ---

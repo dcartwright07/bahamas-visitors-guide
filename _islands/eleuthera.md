@@ -3,7 +3,7 @@ published: true
 name: Eleuthera
 logo_image: /assets/img/islands/eleuthera/eleuthera-logo.jpg
 hero_image: /assets/img/islands/eleuthera/hero.jpg
-categories: [General Information, Accommodations, Island Activites, Real Estate]
+industries: [Accommodations, Island Activites, Real Estate]
 magazine_image: /assets/img/islands/eleuthera/magazine.jpg
 magazine_url: https://issuu.com/janebraynen/docs/eleuthera.2016
 ---

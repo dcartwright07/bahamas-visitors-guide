@@ -1,0 +1,27 @@
+- name: Accommodations
+  link: /accommodations
+  image: /assets/img/industry/accommodations/home-image.jpg
+- name: Island Activities
+  link: /island-activities
+  image: /assets/img/industry/island-activities/home-image.jpg
+- name: Marinas
+  link: /marinas
+  image: /assets/img/industry/marinas/home-image.jpg
+- name: Weddings
+  link: /weddings
+  image: /assets/img/industry/weddings/home-image.jpg
+- name: Bahamian Artisans
+  link: /bahamian-artisans
+  image: /assets/img/industry/bahamian-artisans/home-image.jpg
+- name: Real Estate
+  link: /real-estate
+  image: /assets/img/industry/real-estate/home-image.jpg
+- name: Restaurants
+  link: /restaurants
+  image: /assets/img/industry/restaurants/home-image.jpg
+- name: Shopping
+  link: /shopping
+  image: /assets/img/industry/shopping/home-image.jpg
+- name: Transportation
+  link: /transportation
+  image: /assets/img/industry/transportation/home-image.jpg

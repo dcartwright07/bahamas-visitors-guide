@@ -3,7 +3,7 @@ published: true
 name: Bimini
 logo_image: /assets/img/islands/bimini/bimini-logo.jpg
 hero_image: /assets/img/islands/bimini/hero.jpg
-categories: [General Information, Accommodations, Island Activites, Marinas]
+industries: [Accommodations, Island Activites, Marinas]
 magazine_image: /assets/img/islands/bimini/magazine.jpg
 magazine_url: https://issuu.com/janebraynen/docs/bimini.2015_02e168c7dd8dc5
 ---
