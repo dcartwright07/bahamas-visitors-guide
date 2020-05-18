@@ -1,0 +1,17 @@
+<nav id="primary-menu" class="dark">
+
+	<ul>
+		{% for item in site.data.primary-navigation %}
+			<li class="{% if page.url == item.link %}selected{% endif %}">
+				<a href="{{ item.link }}" >{{ item.name }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<div id="top-search">
+		<a href="#" id="top-search-trigger">
+			<i class="fa fa-search"></i>
+			<i class="fa fa-times"></i>
+		</a>
+	</div>
+</nav>

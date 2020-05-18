@@ -1,0 +1,50 @@
+<footer id="footer" class="dark">
+	<div class="container">
+
+		<!-- Footer Widgets -->
+		<div class="footer-widgets-wrap clearfix">
+			<div class="col_half">
+
+				<?php perch_content('Footer Section 1'); ?>
+				<?php perch_content('Footer Section 2'); ?>
+
+			</div>
+
+			<div class="col_half col_last">
+				<?php perch_content('Footer Section 3'); ?>
+				<?php perch_content('Footer Twitter Feed'); ?>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Copyrights -->
+	<div id="copyrights">
+		<div class="container clearfix">
+			<div class="col_half">
+				Copyright &copy; 2016 All Rights Reserved by Bahamas&nbsp;Visitor's&nbsp;Guide.<br>
+				<div class="copyright-links">
+					{% for item in site.data.footer-bottom-navigation %}
+						<a href="{{ item.link }}">{{ item.name }}</a>{% if forloop.last %}{% continue %}{% else %}/{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+
+			<div class="col_half col_last tright">
+
+				<div class="fright clearfix">
+					{% for item in site.data.social %}
+						<a href="{{ item.link }}" class="social-icon si-small si-borderless si-{{ item.type }}">
+							<i class="fa {{ item.icon }} fa-lg fa-fw"></i>
+							<i class="fa {{ item.icon }} fa-lg"></i>
+						</a>
+					{% endfor %}
+				</div>
+
+				<div class="clear"></div>
+				<i class="fa fa-envelope"></i> info@bahamasvisitorsguide.com <span class="middot">&middot;</span> <i class="fa fa-phone"></i> (242) 667-5715
+			</div>
+		</div>
+	</div>
+
+</footer>

@@ -1,0 +1,12 @@
+- name: Slide 1
+  image: /assets/img/heros/hero-slider6.jpg
+  header: Welcome to the Bahamas Visitor's Guide
+  caption: A Travel Magazine for the Islands of the Bahamas
+- name: Slide 2
+  image: /assets/img/heros/hero-slider1.jpg
+- name: Slide 3
+  image: /assets/img/heros/hero-slider2.jpg
+- name: Slide 4
+  image: /assets/img/heros/hero-slider3.jpg
+- name: Slide 5
+  image: /assets/img/heros/hero-slider4.jpg

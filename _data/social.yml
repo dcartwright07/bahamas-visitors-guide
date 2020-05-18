@@ -1,0 +1,16 @@
+- name: Facebook
+  link:
+  icon: fa-facebook
+  type: facebook
+- name: Twitter
+  link:
+  icon: fa-twitter
+  type: twitter
+- name: Google Plus
+  link:
+  icon: fa-google-plus
+  type: google-plus
+- name: Instagram
+  link:
+  icon: fa-instagram
+  type: instagram

@@ -1,0 +1,31 @@
+<section id="slider" class="swiper_wrapper full-screen clearfix force-full-screen">
+
+	<div class="swiper-container swiper-parent">
+		<div class="swiper-wrapper">
+
+			{% for slide in site.data.hero-slides %}
+				<div class="swiper-slide" style="background-image: url('{{ slide.image }}');">
+					{% if slide.header %}
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-center">
+								<h1 data-caption-animate="fadeInUp">{{ slide.header }}</h1>
+								{% if slide.caption %}
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">{{ slide.caption }}</p>
+								{% endif %}
+							</div>
+						</div>
+					{% endif %}
+				</div>
+			{% endfor %}
+
+		</div>
+
+		<div id="slider-arrow-left"><i class="fa fa-angle-left"></i></div>
+		<div id="slider-arrow-right"><i class="fa fa-angle-right"></i></div>
+	</div>
+
+	<a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow">
+		<i class="fa fa-angle-down infinite animated fadeInDown"></i>
+	</a>
+
+</section>

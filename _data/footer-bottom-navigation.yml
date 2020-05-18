@@ -1,0 +1,8 @@
+- name: Meet the Team
+  link: /about
+- name: Contact Us
+  link: /contact
+- name: Terms of Use
+  link: /term-of-use
+- name: Privacy Policy
+  link: /privacy-policy
